@@ -1,0 +1,187 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'poppins',sans-serif;
+    box-sizing:border-box;
+}
+
+.hero{
+    background:black;
+    min-height:100vh;
+    width:100%;
+    color:#fff;
+    position: relative;
+}
+nav{
+    display:flex;
+    align-items: center;
+    padding: 20px 8%;
+
+}
+
+
+
+
+
+
+
+nav.logo{
+    
+    /*padding:1.5em 2em 3em 1em;*/
+    /*border:2px dashed black;*/
+    border-top:10px solid red;
+    border-bottom:10px solid red;
+    border-left: 5px solid red;
+    border-right: 5px solid red;
+    cursor: pointer;
+}
+#radious-logo{
+    border: 2px solid rgb(175, 47, 77);
+    width: 100px;
+    height: 100px;
+    outline:3px dashed black;
+    border-radius:50%;
+    margin: 1.5em 2em 3em 1em;
+}
+
+nav ul{
+    /*space from center*/
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    display:inline-block;
+    list-style:none;
+    margin:0 20px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+button{
+    background: #efefef;
+    height: 30px;
+    width: 60px;
+    border-radius:20px;
+    border:0;
+    outline: 0;
+    cursor: pointer;
+    
+
+
+}
+
+button span{
+    display: block;
+    background: #999;
+    height:26px;
+    width: 26px;
+    border-radius: 50%;
+    margin-left: 2px;
+    
+
+}
+
+.lamp-container{
+    position: absolute;
+    top: 0;
+    left: 22%;
+    width: 200px;
+
+}
+
+.lamp{
+    width: 100%;
+    
+}
+
+.light{
+    position:absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 700px;
+    margin-left: 45px;
+    opacity: 0;
+    transition: opacity 0.5s;
+
+
+
+}
+
+.text-container{
+    max-width: 600px;
+    margin-top: 5%;
+    margin-left:60% ;
+}
+
+.text-container h1{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+
+}
+
+.text-container p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+
+}
+
+.text-container a{
+    text-decoration: none;
+    background: #00986f;
+    padding: 14px 40px;
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+
+.control{
+    display: flex;
+    align-items:center;
+    justify-content:flex-end;
+    margin-top: 150px;
+
+
+}
+
+.control .line{
+    width: 250px;
+    height: 4px;
+    background: white;
+    margin:0 20px ;
+    border-radius: 2px;
+
+}
+
+
+.control.line.span{
+    width: 50%;
+    height: 8px;
+    margin-top:-2px;
+    border-radious:4px;
+    background: #00986f;
+
+}
+
+.active{
+    background-color: #00986f;
+}
+.active span{
+    background: #fff;
+    margin-left: 31px;
+
+
+}
+
+.on{
+    opacity: 1;
+}
